@@ -1,0 +1,108 @@
+body {
+    margin: -1em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(.6);
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    background: rgb(1, 42, 82);
+    background: linear-gradient(158deg, rgb(0, 88, 170) 0%, rgb(114, 0, 19) 100%);
+}
+
+.nav-item {
+    list-style: none;
+    font-size: 400%;
+    padding: 1vw 2vw;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+        color: black;
+}
+
+.header1 {
+    letter-spacing: .8vw;
+    text-shadow:15px 12px 10px rgba(0, 0, 0, 0.5);;
+    color: rgb(2, 92, 177);
+    background-color: rgba(155, 155, 155, .5);
+    position: relative;
+    margin-top: 15vw;
+    font-size: 3vw;
+    height: 3em;
+    width: 60%;
+    margin-left: 20vw;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    margin: 15vw auto;
+    padding: 1vw;
+}
+
+main > p {
+    letter-spacing: .2vw;
+    font-size: 250%;
+    max-width: 1000px;
+    margin: 1vw auto;
+}
+
+#mid-container {
+    position: relative;
+    height: 25vw;
+    background: rgb(1, 42, 82);
+    background: linear-gradient(158deg, rgb(0, 88, 170) 0%, rgb(114, 0, 19) 100%);
+}
+
+#mid {
+    position: relative;
+    width: 80%;
+    margin-left: 10rem;
+    margin-top: 5vw;
+    color:rgb(109, 0, 18);
+    font-size: 150%;
+}
+
+#mid-ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;   
+}
+
+#mid-ul > .content {
+    background-color: rgba(155, 155, 155, .9);
+    border-radius: 100px;
+    box-shadow: 15px 12px 10px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 5vw;
+    padding: 1.5em;
+    text-align: center;
+}
